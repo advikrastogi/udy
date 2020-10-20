@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://www.pixelstalk.net/wp-content/uploads/2015/05/Blue-Sea-Travel-Wallpapers-HD.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 60px;
+
+}
+ul li{
+    display: inline-block;
+    padding-right: 1px;
+    align-items: flex-end;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    border: 1px solid transparent;
+    transition:0.1s ease;
+    font-size: 22px;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 190px;
+    height: auto ;
+    margin-top: 20px;
+}
+.main{
+    max-width: 1289px;
+   
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+.title{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: antiquewhite;
+    font-size: 60px;
+}
+body{
+    color: antiquewhite;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://www.pixelstalk.net/wp-content/uploads/2015/05/Blue-Sea-Travel-Wallpapers-HD.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 60px;
+
+}
+ul li{
+    display: inline-block;
+    padding-right: 1px;
+    align-items: flex-end;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    border: 1px solid transparent;
+    transition:0.1s ease;
+    font-size: 22px;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 120px;
+  
+    margin-top: 20px;
+}
+.main{
+    max-width: 1289px;
+   
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: antiquewhite;
+    font-size: 60px;
+    font-family:'sans-serif';
+}
+.title h3{
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana', 'sans-serif';
+}
+.name{
+ padding-top: 8px;
+ padding-left: 5px;
+ padding-right: 5px;
+ padding-bottom: 5px;
+ background-color: transparent;
+ border: 3px double white;
+ color: white;
+ font-size: 17px;
+ margin-top: 350px;
+ margin-left: 350px;
+ text-align: center;
+ width: 390px;
+}
+.name::placeholder{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.email{
+    background-color: transparent;
+    border: 3px double white;
+    color: white;
+    font-size: 17px;
+    width: 390px;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 470px;
+    margin-top: 10px;
+}
+.email::placeholder{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.password {
+    background-color: transparent;
+    border: 3px double white;
+    color: white;
+    font-size: 17px;
+    width: 390px;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 470px;
+    margin-top: 10px;
+}
+.password::placeholder{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.submit{
+    background-color: transparent;
+    border: 3px double transparent;
+    color: white;
+    font-size: 20px;
+    width: 390px;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 470px;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+.submit:hover{
+   border-color: white;
+}
